@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Experience Survey</title>
+</head>
+<body>
+    <h1>Customer Experience Survey</h1>
+    <label for="storeNumber">Store Number</label>
+    <select id="storeNumber">
+        <option>3109</option>
+        <option>2421</option>
+        <option>5357</option>
+    </select>
+    <br>
+    <fieldset>
+        <legend>When you visited</legend>
+        <label for="dateVisited">Date Visited</label>
+        <input type="date" id="dateVisited">
+        <label for="time">Time</label>
+        <input type="time" id="time">
+    </fieldset>
+    <form>
+        <label>
+            First Name
+            <input type="text">
+        </label>
+        <label>
+            Last Name
+            <input type="text">
+            <br>
+            <label for="userEmail">Email</label>
+            <input type="email" id="userEmail" required>
+        </label>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <br>
+        <label>Tell us about your experience:</label>
+        <br>
+        <textarea id="yourexperience" name="yourexperience" rows="3" cols="30">
+        </textarea>
+        <br>
+        <label>
+            Times visited in the last month: <input type="number" style="width: 3em;">
+            <br>
+            <label>Please check the box if you would be willing to be contacted about your experience</label>
+            <label for="userCheckbox" Checkbox</label></label>
+            <input type="checkbox" id="userCheckbox" required>
+            <br>
+        </label>
+        <input type="reset">
+        <input type="submit">
+    </form>
+    <br>
+</body>
+</html>
